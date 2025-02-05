@@ -1,0 +1,82 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #e0bfdc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #333;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Tab content styles */
+.tabcontent {
+    display: none;
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.resume-section {
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    color: #665442;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #e0bfdc;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Show active tab */
+.tabcontent.active {
+    display: block;
+}
+
+/* PDF link styling */
+.resume-section a {
+    color: #2a6ab5;
+    font-weight: bold;
+}
+
+.resume-section a:hover {
+    text-decoration: underline;
+}
